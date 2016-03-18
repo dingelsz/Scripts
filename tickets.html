@@ -1,0 +1,727 @@
+<html>
+<head>
+ <link rel="stylesheet" href="ticket.css" type="text/css"> 
+</head>
+<body>
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #33</b> grid_dailyStatistic</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.9-statistics
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+Convert a bs_grid object from an hourly to a daily time series by applying a function.
+
+This should function just like monitor_dailyStatistic except should use the apply() function to apply to every grid cell in the model.
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #34</b> grid_dailyThreshold</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.9-statistics
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+This should function exactly like monitor_dailyThreshold except be applied to ws_grid objects.
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #37</b> monitor_diurnalCycle plot</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.7-fancy-plots
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+We need a plot that presents the diurnal cycle (implies local time) associated with a time series of data.
+
+Various possibilities exist for how to do this and we should experiment or even create a function that allows for different output:
+
+ * over plotted lines (one per day)
+ * box plot for every hour
+ * some sort of wind-rose style plot
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #39</b> monitor_subsetBy(ws_monitor, filter)</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.8-monitors
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+Monitors need a generic "subsetBy" function that allows people to subset by anything they happen to know is in the ws_monitor$meta dataframe. It should borrow functionality from both event_subsetBy() and monitor_subset().
+
+We need handle filters that are incorrect expressions (e.g. misspelled column name).
+
+The example should test things by filtering on timezone.
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #43</b> refactor hms_smoke.R (and rename to hms_loadSmoke.R)</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.6-spatial
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+All loading functions should be named like this:
+
+[dataSource]_load[dataType]
+
+After the MazamaSpatialUtils package includes the new convertHMSSmoke() function, the hms_loadSmoke() function should work more like the bluesy_aggregate function:
+
+ 1. create an empty list of the appropriate length
+ 1. for each tilmestep
+   1. check for existence of an already converted .RData file with HMS Smoke shapes for a particular day
+   1. if it exists, load the SpatialPolygonsDataFrame into the list with the datestamp key
+   1. if it doesn't exist, use MazamaSpatialUtils::convertHMSSmoke() to convert the data and then load the SPDF into the list
+
+This way we separate the time-intensive conversion of shapefiles so that it only needs to be done once. We will probably set up an automated process to convert these data and place the .RData files in a web-accessible area so that hms_loadSmoke will eventually just grab the SPDF from a URL.
+
+
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #44</b> grid_spaghettiPlot function</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.7-fancy-plots
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+The current spaghettiPlot() function isn't general and reusable enough to be useful.
+
+Here is the function signature I would like to see
+
+{{{
+grid_spaghettiPlot <- function(ws_grid, lon=NULL, lat=NULL, count=9,
+                               col=RColorBrewer::brewer.pal(count,'Paired'),
+                               rmWidth=3, add=FALSE)
+}}}
+                  
+This function will be the basic building block for creating more complicated "spaghetti plots".
+
+This function will:
+
+ * use grid_subsetByDistance() to create a set of count ws_monitor objects
+ * use monitor_rollingMean() to apply a rolling mean
+ * use monitor_timeseriesPlot() to create a new plot or add to an existing one
+
+
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #45</b> update data-model vignette to include ws_shape</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.6-spatial
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+The description should be added only after modifying hms_loadSmoke() so that we are certain of what the data model looks like.
+
+This documentation will probably be very similar to the section on ws_event
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #18</b> New Smoke Activity Plot</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">dingelsz@uw.edu</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">Zach Dingels
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      minor
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+Research, plot and create a story for a recent fire. Use BlueSky, wrcc and airnow data to create a plot. 
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #22</b> more AIRSIS data</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.8-monitors
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+handle conversion of all of the following separate databases from AIRSIS
+
+USFS monitors (some research monitors in here, so ask before basing publications on these data)
+usfs.airsis.com (user/pass = usfs)
+
+NPS and airdistrict monitors
+apcd.airsis.com (user/pass = apcd)
+
+ARB 
+arb2.airsis.com (user/pass = arb2)
+
+Mariposa APCD
+mariposa.airsis.com (user/pass = mariposa)
+</p>
+
+              </div>
+            </div>
+        </div>
+
+
+    <div id="ticket">
+          <!-- use a placeholder if it's a new ticket -->
+          <h2 class="summary searchable"><b>Ticket #28</b> EPA site and monitor metadata</h2>
+          <table class="properties">
+            <tr>
+              <th id="h_reporter">Reported by:</th>
+              <td headers="h_reporter" class="searchable">jonathan.s.callahan@gmail.com</td>
+              <th id="h_owner">Owned by:</th>
+              <td headers="h_owner">dingelsz@uw.edu
+              </td>
+            </tr>
+            <tr>
+                <th id="h_priority">
+                  Priority:
+                </th>
+                <td headers="h_priority">
+                      major
+                </td>
+                <th id="h_milestone">
+                  Milestone:
+                </th>
+                <td headers="h_milestone">
+                      v_0.8-monitors
+                </td>
+            </tr><tr>
+                <th id="h_component">
+                  Component:
+                </th>
+                <td headers="h_component">
+                      component1
+                </td>
+                <th id="h_version">
+                  Version:
+                </th>
+                <td headers="h_version">
+                  
+                </td>
+            </tr><tr>
+                <th id="h_keywords">
+                  Keywords:
+                </th>
+                <td headers="h_keywords" class="searchable">
+                  
+                </td>
+                <th id="h_cc">
+                  Cc:
+                </th>
+                <td headers="h_cc" class="searchable">
+                  
+                </td>
+            </tr>
+          </table>
+            <div class="description">
+              <h3 id="comment:description">
+                Description
+              </h3>
+              <div class="searchable">
+                <p>
+The EPA site with data files also has extensive metadata on sites and monitors. These should be downloaded and ingested by epa_createMonitorObject()
+
+URL of the EPA site fond inside epa_createMonitorObject.R
+</p>
+
+              </div>
+            </div>
+        </div>
+
+</body>
+</html>

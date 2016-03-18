@@ -102,9 +102,12 @@ for key in tickets:
 ''' % ( ticket['ticketNum'], ticket['summary'], ticket['reporter'], ticket['owner'], ticket['priority'], ticket['milestone'], ticket['component'], ticket['version'], ticket['keywords'], ticket['cc'], ticket['description'])
     html.append(format)
 
+
+currentDate = datetime.datetime.strftime(datetime.datetime.now(), "%B %d, %Y at %H:%M:%S")
+
 # Lets make this actual runable html code, also put in a refrence to the css file.
 html.append('</body>\n</html>')
-html.insert(0, '<html>\n<head>\n <link rel="stylesheet" href="ticket.css" type="text/css"> \n</head>\n<body>')
+html.insert(0, ('<html>\n<head>\n <link rel="stylesheet" href="ticket.css" type="text/css"> \n</head>\n<body>\n<h1>Generated on %s</h1>\n' % (currentDate)))
 
 with open('tickets.html', 'w') as f:
     f.write('\n'.join(html))
